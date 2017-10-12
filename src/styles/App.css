@@ -1,16 +1,42 @@
-.App{
-    margin: none;
+.App {
+  margin: none;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  font: Roboto;
+  letter-spacing: 1;
+  text-transform: uppercase; }
+  .App .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 100vh;
-    position: relative;
+    height: 50px;
+    position: absolute; }
+  .App .boxContainer {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-}
-
-.box{
     width: 50%;
-    height: 70%;
-    background-color: grey;
-    position: absolute;
-}
+    height: 100%;
+    margin-top: 100px;
+    margin-right: 20px; }
+    .App .boxContainer .box {
+      width: 90%;
+      height: 70%;
+      box-shadow: 3px 3px 3px 3px #ccc; }
+    .App .boxContainer .title {
+      margin-left: 20px;
+      font-family: roboto;
+      font-size: 30px; }
+    .App .boxContainer .body {
+      margin-left: 50px;
+      font-family: roboto; }
+  .App .map-container {
+    margin-top: 100px;
+    height: 60%;
+    width: 50%;
+    z-index: 99;
+    margin: 20px;
+    margin-top: 100px; }

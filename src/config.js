@@ -1,0 +1,1 @@
+export default {mapsAPIKey: 'AIzaSyCQuSQpOBtc72ZiPmgkR8O-fLAkcSVtXDM'}
